@@ -16,12 +16,12 @@ public:
         // cout<<nums1[k];
         while(k>=0)
         {
-            if(i<0)
+            if(i==-1)
             {
                 nums1[k]=nums2[j];
                 j--;
             }
-            else if(j<0)
+            else if(j==-1)
             {
                 nums1[k]=nums1[i];
                 i--;
